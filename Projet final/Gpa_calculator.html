@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STdocs CALCULATOR </title>
+    <link rel="stylesheet" href="Gpa_calculator.css">
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            STdocs
+        </div>
+
+        <div>
+            <ul class="nav-link">
+
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="#">À propos</a>
+                </li>
+
+                <li>
+                    <a href="mailto:mohamedtouareg78@gmail.com" title="My email">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+            <button class="theme-btn" id="themeBtn">🌑</button>
+        <div class="search">
+
+            <input type="search" placeholder="Rechercher">
+        
+            <button class="btn" id="btn">
+                Chercher
+            </button>
+
+        </div>
+
+    </nav>
+    <main class="layout">
+        <div class="main-content">
+           
+                <section class="hero">
+
+                <h1 class="titel">
+                 STdocs CALCULATOR
+                </h1>
+
+                <p>
+                   Calculateur STdocs pour les étudiants Ingénieurs de l'USTHB — compatible avec le système national algérien. 
+                </p>
+            </section>
+        </div>
+       
+
+
+    <div class="from">
+
+        <form class="spécialité">
+
+            <label for="spécialité">
+                Choisissez votre spécialité
+            </label>
+
+            <select name="spécialité" id="spécialité">
+
+                <option value="" disabled selected>
+                    Votre spécialité
+                </option>
+
+                <option value="ST-1ere">
+                    Ingénieur première année
+                </option>
+
+                <option value="groupe-A">
+                    Filières du groupe A
+                </option>
+
+                <option value="groupe-B">
+                    Filières du groupe B
+                </option>
+
+                <option value="groupe-C">
+                    Filières du groupe C
+                </option>
+
+            </select>
+
+
+            <label for="filière">
+                Choisissez votre filière
+            </label>
+
+            <select name="filière" id="filière">
+
+                <option value="" disabled selected>
+                    Votre filière 
+                </option>
+
+            </select>
+            <label for="str">Choisissez le semester
+            </label>
+                <select name="str" id="str">
+                    <option value="" disabled selected> Voter semaster</option>
+                </select>
+        </form>
+        <button type="button" class="ok-btn" id="okBtn">
+            OK
+        </button>
+    </div>
+        <div class="clc">
+            <div class="cart">
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <a href="https://www.usthb.dz/" title="Site de l'USTHB">
+            Université des Sciences et de la Technologie Houari Boumediene
+        </a>
+
+        <a href="https://fge.usthb.dz/" title="Site de la FGE">
+            Faculté de Génie Électrique USTHB
+        </a>
+
+        <img src="image_usthb_fge.png" alt="Logo de la FGE">
+        
+    </footer>
+    <script src="Gpa_calculator.js"></script>
+</body>
+</html>
